@@ -1,0 +1,21 @@
+artifact_path: models/CNN_ep3000
+flavors:
+  python_function:
+    config:
+      device: null
+    data: data
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.pytorch
+    pickle_module_name: mlflow.pytorch.pickle_module
+    python_version: 3.9.1
+  pytorch:
+    code: null
+    model_data: data
+    pytorch_version: 2.5.1+cu124
+mlflow_version: 2.19.0
+model_size_bytes: 14569166
+model_uuid: 9a08b21ef3924ceeb1bf6a3bbd5f4325
+run_id: 9167f4ead13343e89df56bfdc20473e5
+utc_time_created: '2025-01-15 14:53:49.715000'
